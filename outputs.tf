@@ -1,5 +1,5 @@
 /*
-* This file defines the public output interface for this Module.
+* This is the public output interface for this Module.
 */
 
 output "charts_info" {

@@ -1,14 +1,14 @@
-name: Module Releaser
+name: Tag
 
 on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.tf'
+      - '!examples/**'
 
 jobs:
   call-tag-workflow:
     uses: JetBrains/actions/.github/workflows/tag.yaml@main
-    secrets: inherit
-  call-changelog-workflow:
-    uses: JetBrains/actions/.github/workflows/changelog.yaml@main
     secrets: inherit
