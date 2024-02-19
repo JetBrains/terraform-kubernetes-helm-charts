@@ -1,0 +1,11 @@
+name: TerraformPullRequest
+
+on:
+  pull_request:
+    paths:
+      - '**/*.tf'
+
+jobs:
+  call-terraform-ci-workflow:
+    uses: jetBrains/actions/.github/workflows/terraform.ci.yaml@main
+    secrets: inherit
