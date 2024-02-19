@@ -1,6 +1,5 @@
 /**
-* A declarative helm chart deployment.
-* Ref:
+* The entrypoint for this Module.
 */
 
 locals {

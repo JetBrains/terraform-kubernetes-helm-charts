@@ -1,0 +1,10 @@
+name: Changelog
+on:
+  workflow_run:
+    workflows: ["Tag"]
+    types:
+      - completed
+jobs:
+  call-changelog-workflow:
+    uses: JetBrains/actions/.github/workflows/changelog.yaml@main
+    secrets: inherit

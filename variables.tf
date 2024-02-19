@@ -1,5 +1,5 @@
 /*
-* This file define the public input interface for this Module.
+* This is the public input interface for this Module.
 */
 
 variable "charts" {
