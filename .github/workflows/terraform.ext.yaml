@@ -9,3 +9,7 @@ jobs:
   call-terraform-ci-workflow:
     uses: jetbrains/actions/.github/workflows/terraform.ci.yaml@main
     secrets: inherit
+
+  call-assign-workflow:
+    uses: jetbrains/actions/.github/workflows/assign.yaml@main
+    secrets: inherit
