@@ -1,0 +1,19 @@
+name: TerraformPullRequest
+
+on:
+  pull_request:
+    paths:
+      - '**/*.tf'
+
+jobs:
+  call-terraform-ci-workflow:
+    uses: JetBrains/actions/.github/workflows/terraform.ci.yaml@main
+    secrets: inherit
+
+  call-assign-workflow:
+    uses: JetBrains/actions/.github/workflows/assign.yaml@main
+    secrets: inherit
+
+#  call-pull-request-labeler-workflow:
+#    uses: JetBrains/actions/.github/workflows/labeler.yaml@main
+#    secrets: inherit
