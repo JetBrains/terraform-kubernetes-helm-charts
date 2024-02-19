@@ -14,6 +14,6 @@ jobs:
     uses: JetBrains/actions/.github/workflows/assign.yaml@main
     secrets: inherit
 
-#  call-pull-request-labeler-workflow:
-#    uses: JetBrains/actions/.github/workflows/labeler.yaml@main
-#    secrets: inherit
+  call-pull-request-labeler-workflow:
+    uses: JetBrains/actions/.github/workflows/labeler.yaml@main
+    secrets: inherit
