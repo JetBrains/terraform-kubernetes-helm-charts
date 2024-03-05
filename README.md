@@ -1,6 +1,8 @@
 <!-- BEGIN_TF_DOCS -->
 # terraform-kubernetes-helm-charts
 
+[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 This module allows to deploy at least one Helm Chart in a Kubernetes cluster.
 
 ## Status
