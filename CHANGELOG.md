@@ -2,6 +2,12 @@
 ## [Unreleased]
 
 
+<a name="v0.3.0"></a>
+## [v0.3.0] - 2024-04-11
+### Features
+- migrate helm_release object creations from count to for_each ([#5](/issues/5))
+
+
 <a name="v0.2.0"></a>
 ## [v0.2.0] - 2024-02-19
 ### Bug Fixes
@@ -14,5 +20,6 @@
 - **workflows:** add the releaser orchestrated workfflow ([#2](/issues/2))
 
 
-[Unreleased]: /compare/v0.2.0...HEAD
+[Unreleased]: /compare/v0.3.0...HEAD
+[v0.3.0]: /compare/v0.2.0...v0.3.0
 [v0.2.0]: /compare/v0.1.0...v0.2.0
